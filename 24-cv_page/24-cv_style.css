@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+  width: 900px;
+  margin: 40px auto;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+/* ------------------------- Header ------------------------- */
+.avatar {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.header__title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.header__subtitle {
+  color: rgb(78, 140, 221);
+}
+
+/* ------------------------- Main ------------------------- */
+
+main {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+summary {
+  /* position: relative; */
+}
+
+ol {
+  /* width: 90px; */
+  /* text-align: left; */
+  list-style: none;
+}
+
+li {
+  margin-top: 5px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.separator {
+  width: 50%;
+  height: 3px;
+}
+
+.video {
+  width: 650px;
+  height: 400px;
+}
+
+.ed_table {
+  border-collapse: collapse;
+  width: 600px;
+}
+
+.ed_table th,
+.ed_table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.quote {
+  font-size: 32px;
+}
+
+.form {
+  width: 600px;
+}
+
+.form input {
+  width: 100%;
+}
+.form label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+fieldset {
+  padding: 20px;
+}
+.form__submit {
+  padding: 10px;
+  font-weight: bold;
+}
+.form__control {
+  padding: 5px;
+  width: 100%;
+}
+
+/* ------------------------- Footer ------------------------- */
+
+.contacts__link {
+  text-decoration: none;
+  color: rgb(228, 100, 126);
+}
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="24-cv_style.css" />
+    <title>CV Page</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <img
+          src="avatar_image.jpg"
+          alt="Avatar Image(Yagami Light)"
+          class="avatar"
+        />
+        <h1 class="header__title">Kir.S | CV Page</h1>
+        <h2 class="header__subtitle">Frontend Developer</h2>
+      </header>
+      <main>
+        <section class="skills">
+          <h3>Skills</h3>
+          <details>
+            <summary>Skills list:</summary>
+            <ol>
+              <li>HTMML</li>
+              <li>CSS</li>
+              <li>JavaSkript</li>
+              <li>React</li>
+              <li>Typescript</li>
+            </ol>
+          </details>
+        </section>
+        <article class="article">
+          <h3>Short article about me</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            commodi sit beatae tenetur quia officiis, atque accusantium quo
+            harum ab iste temporibus quas est quod consequuntur, tempore a
+            pariatur enim!
+          </p>
+        </article>
+        <section class="gallary">
+          <h3>Gallery</h3>
+          <img src="https://placehold.co/225x225" alt="Gallery Image" />
+          <img src="https://placehold.co/225x225" alt="Gallery Image" />
+          <img src="https://placehold.co/225x225" alt="Gallery Image" />
+        </section>
+        <hr class="separator" />
+        <section>
+          <iframe
+            class="video"
+            width="1280"
+            height="720"
+            src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e"
+            title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section class="hobbies">
+          <h3>Hobbies</h3>
+          <details>
+            <summary>My hobbies:</summary>
+            <ol>
+              <li>Writing Code</li>
+              <li>Undereducated</li>
+              <li>Reading Books</li>
+              <li>Design</li>
+            </ol>
+          </details>
+        </section>
+        <hr class="separator" />
+        <section class="ed">
+          <h3>Education</h3>
+          <table class="ed_table">
+            <thead>
+              <tr>
+                <th>School / University</th>
+                <th>Profession</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IT school 1</td>
+                <td>React Dev.</td>
+                <td>2019</td>
+              </tr>
+              <tr>
+                <td>IT school 2</td>
+                <td>Angular Dev.</td>
+                <td>2020</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="quote">
+          <blockquote>Действия - это единственный путь к успеху</blockquote>
+        </section>
+        <section class="interaction">
+          <form
+            action="https://www.google.com"
+            method="get"
+            target="_blank"
+            class="form"
+          >
+            <fieldset>
+              <legend>Required fields:</legend>
+              <div>
+                <label for="firstName">First Name: </label>
+                <input
+                  type="text"
+                  name="firstName"
+                  id="firstName"
+                  required
+                  class="form__control"
+                  placeholder="Firs Name"
+                />
+              </div>
+
+              <div>
+                <label for="lastName">Last Name: </label>
+                <input
+                  type="text"
+                  name="lastName"
+                  id="lastName"
+                  required
+                  class="form__control"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div>
+                <label for="email">Email: </label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  required
+                  class="form__control"
+                  placeholder="Email"
+                />
+              </div>
+            </fieldset>
+          </form>
+          <br />
+          <textarea
+            name="questions"
+            id=""
+            cols="30"
+            rows="7"
+            class="form__control"
+            placeholder="Your questions..."
+          ></textarea>
+          <button type="submit" class="form__submit">Submit</button>
+        </section>
+      </main>
+      <footer>
+        <address>
+          <a href="mailto:it#gmail.com" class="contacts__link">Mail Me</a>
+          <br />
+          <a href="tel:+9999999999" class="contacts__link">Call Me</a>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>
